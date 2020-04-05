@@ -18,3 +18,14 @@ services:
       - ./nginx-conf:/etc/nginx/conf.d
     depends_on:
       - nodejs
+        
+  jenkins:
+    image: istresearch/jenkins:latest
+    ports:
+      - '9090:8080'
+      - '443:8443'
+      - '50000:50000'
+        #    volumes:
+        #      - /data/jenkins:/var/jenkins_home
+        #      - /var/run/docker.sock:/var/run/docker.sock
+
