@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
 		    });
 });
 app.listen(port);
-console.log('Aplicação executando na porta ', port);
+console.log('Acesso por', port);
