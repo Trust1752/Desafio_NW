@@ -2,8 +2,12 @@
   "name": "nodejs-image-demo",
   "version": "1.0.0",
   "description": "nodejs image demo",
+  "author": "katjuell <kathleenjuell@gmail.com>",
   "license": "MIT",
-  "main": "app.js"
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katjuell/nodejs-image-demo.git"
   },
   "keywords": [
     "nodejs",
@@ -14,3 +18,4 @@
     "express": "^4.16.4"
   }
 }
+
